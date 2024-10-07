@@ -210,7 +210,7 @@ install_s-ui() {
     tar zxvf s-ui-linux-$(arch).tar.gz
     rm s-ui-linux-$(arch).tar.gz -f
 
-    wget --no-check-certificate -O /usr/bin/s-ui https://raw.githubusercontent.com/you10069/s-ui/main-use/s-ui.sh
+    wget --no-check-certificate -O /usr/bin/s-ui https://raw.githubusercontent.com/you10069/s-ui/main/s-ui.sh
 
     chmod +x s-ui/sui s-ui/bin/sing-box s-ui/bin/runSingbox.sh /usr/bin/s-ui
     cp -rf s-ui /usr/local/
