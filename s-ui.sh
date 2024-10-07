@@ -127,7 +127,7 @@ before_show_menu() {
 }
 
 install() {
-    bash <(curl -Ls https://raw.githubusercontent.com/you10069/s-ui/main-use/install.sh)
+    bash <(curl -Ls https://raw.githubusercontent.com/you10069/s-ui/main/install.sh)
     if [[ $? == 0 ]]; then
         if [[ $# == 0 ]]; then
             start
